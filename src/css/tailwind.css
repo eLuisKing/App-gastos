@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* textos */
+.some-text-sm{
+    @apply font-semibold;
+}
+
+/* header web */
+.header-web{
+    @apply w-full h-14 p-3 bg-gray-200 hidden lg:flex justify-between;
+}
+
+.btn-web-green{
+    @apply w-auto h-10 p-2 rounded-lg bg-green-500 hover:bg-green-600;
+}
+
+.btn-web-red{
+    @apply w-auto h-10 p-2 rounded-lg bg-red-500 hover:bg-red-600;
+}
+
+.header-movil{
+    @apply w-full h-10 p-5 flex justify-between;
+}
+
+/* Container principal */
+.container-main{
+    @apply p-5 mt-5 lg:flex gap-10 lg:pl-72 lg:pr-72;
+}
+
+/* Tarjeta */
+.card-head-movil{
+    @apply w-10 h-10 bg-gray-200 flex justify-center items-center rounded-md shadow-md hover:bg-gray-300 hover:shadow-lg;
+}
+
+.date-total-card{
+    @apply flex flex-col items-center mb-9;
+}
+
+.card-state{
+    @apply w-full h-52 p-8 bg-blue-500 rounded-xl shadow-lg border border-blue-600
+}
+
+.card-inga{
+    @apply flex justify-center items-center gap-2
+}
+
+
+/* BTNS INGA */
+.container-btns-inga{
+    @apply p-1 flex bg-gray-200 rounded-lg shadow-md h-12 lg:w-96 lg:h-12;
+}
+
+.btns-inga{
+    @apply w-1/2 p-1 flex justify-center items-center border rounded-md;
+}
+
+/* Cards total INGA */
+.card-total-inga{
+    @apply w-full h-20 bg-gray-200 rounded-lg flex flex-col justify-center items-center;
+}
+
+/* Seccion container INGA */
+
+.container-list-INGA{
+    @apply mt-4 p-2 bg-gray-200 rounded-lg;
+}
+
+.card-info{
+    @apply w-full h-12 pl-7 pr-7 mb-3 bg-white rounded-lg flex justify-between items-center;
+}
+
+.text-info-green{
+    @apply text-green-600 font-semibold;
+}
+
+.text-info-red{
+    @apply text-red-500 font-semibold;
+}
