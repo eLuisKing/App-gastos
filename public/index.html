@@ -26,7 +26,7 @@
 
     <!-- HEADER  BUTTONS -->
     <div class="header-movil lg:hidden">
-        <div class="card-head-movil">
+        <div class="card-head-movil" id="btn-reload">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"></path>
@@ -88,10 +88,10 @@
         <div class="mt-4 lg:mt-0">
             <!-- CARD BTNS ING - GAS -->
             <div class="container-btns-inga">
-                <div class="btns-inga bg-green-500 ">
+                <div id="btn-ingresos" class="btns-inga bg-green-500 ">
                     <p class="font-semibold">Ingresos</p>
                 </div>
-                <div class="btns-inga bg-red-600">
+                <div id="btn-gastos" class="btns-inga">
                     <p class="font-semibold">Gastos</p>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <!-- GAS -->
-                <div id="gastos" class="mt-4">
+                <div id="gastos" class="mt-4 hidden">
                     <div class="card-total-inga">
                         <p>Total Gastos</p>
                         <p class="some-text-sm">$30,000.00</p>

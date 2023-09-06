@@ -546,6 +546,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .flex-col {
   flex-direction: column;
 }
